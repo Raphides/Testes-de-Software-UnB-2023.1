@@ -1,5 +1,28 @@
+# Introdução à Testes de Software
+
 # O que são testes?
-Teste é uma série de prática feita por usuários e desenvolvedores de uma aplicação ou produto a fim de **encontrar erros** e **garantir a qualidade**.
+Testes são uma série de práticas feitas por usuários e desenvolvedores de uma aplicação ou produto a fim de **encontrar defeitos** em qualquer parte do processo de produção.
+
+Diferente da área de qualidade, que visa em garantir que a sua equipe siga as práticas mais adequadas do processo de desenvolvimento de software, a área de testes foca em criar ferramentas que possam, de forma eficiente, encontrar defeitos em softwares. A prática de testes ocorrem durante todo o ciclo de desenvolvimento de software.
+
+A comunidade de software costuma utilizar duas abordagens diferentes na produção de testes:
+
+|Abordagem|Foco|Quando começa|Para projetos de tamanho|
+|-|-|-|-|
+|Tradicional|Documentação|Após realizar o design dos testes|Grande
+|Ágil|Execução|Desde o planejamento do produto|Pequenos
+
+Corrigir defeitos pode se tornar caro, portanto testes são usados para agrupar informações estatísticas importantes a tomadores de decisões dentro de empresas. Assim, a empresa pode decidir se corrige ou não a malfuncionalidade. Esta em si é a principal diferença entre **testes** e ***debugging***, processo este que foca em achar e remover a causa da falha no sistema. Testes ficam registrados e servem como forma de garantir quais as características que o software deve apresentar, ou seja, para os testes nao acharem falha alguma. Essa concepção de testes caracterizando um produto é o de onde vem a ***Test Driven Development*** (TDD) que em breve será abordada.
+
+## Por que é importante realizar testes?
+
+Softwares estão presentes no nosso dia a dia em diversos produtos. Falhas em seus sistemas podem deixar o serviço/produto inoperável, o que no caso de tecnologias de banco, hospitais, voos e vários outros serviços, geram consequências desastrosas. Alguns problemas que podem se decorrer de falhas de software são:
+- Perda da confiabilidade do público nas empresas desenvolvedoras e afiliadas.
+- Menor número de venda e aumento das devoluções.
+- Vazamento de dados sensíveis, como número do cartão de crédito.
+- Dano a pessoas, alguns até fatais.
+
+Casos mais graves, como a perda do módulo "Mars Polar Lander" ou as mortes resultantes das falhas no Therac-25, geraram um prejuízo enorme de vidas e dinheiro. Elas mostram a necessidade de entregar softwares de qualidade.
 
 ## Por que estudar testes?
 Testes normalmente ocupam de 50% a 75% do tempo de desenvolvimento, isso porque o proceso de testes de software costuma ser um dos processos mais difíceis comparado a outros testes. Isso se dá principalmente devido a grande quantidade de variáveis a serem considerados
@@ -12,35 +35,13 @@ Para realizar testes efetivos, é preciso:
 - Saber quando e o que testar, se testarmos tudo, perdemos muito dinheiro e se não testarmos nada, o produto pode ter mal funcionamento.
 - Lembrar que mesmo de forma sistemática, não há receita de bolo para escolher qual tipo de teste e como fazer. Cada produto necessita diferentes testes.
 
-# Verificação vs Validação (V&V)
-Veja a norma ISO/IEC 12207.
+## Princípios e Paradoxos de Testes
 
-- **Verificação**: checa se uma unidade ou funcionalidade está de fato funcionando como esperado e de acordo com os requisitos de projeto.
-    - É mais técnico.
-    - Artefatos também podem ser verificados, avaliando se esses requisitos de fato podem ser alcançados.
-- **Validação**: checa se as ideias, unidades e funcionalidades atendem às necessidades e preferências dos usuários e compradores, se está adequada a eles.
-    - Normalmente é realizada durante as conversas com o cliente e as revisões das sprints/ciclos.
+- Caso todos os testes não encontrem nenhum defeito, não é garantia que o seu software não terá defeitos. Testes não cobrem toda as milhares de possibilidades de defeitos.
+- Testar tudo é quase sempre inviável, tentar gera testes lentos. Procure casos de teste que cubram outros casos.
+- Teste o mais cedo possível, consertar defeitos no início do projeto costuma ser mais barato.
+- Tente achar padrões de onde os bugs do seu software estão concentrados.
+- A quantidade, foco e qualidade dos testes dependem do contexto.
+- Corrigir erros nem sempre vai fazer o seu software decolar nas vendas.
 
-## Abordagens de V&V
-- Estáticas:
-    - Revisão
-    - Walktrhout
-- Dinâmicas:
-    - Testes de Software
-
-## Abordagens de erros de V&V
-- Estático:
-    - Engano/*mistake*: ação humana que produz um estado incorreto.
-    - Defeito (fault/bug): alguma inconsistência nos dados/programa. Um conceito de V&V estático
-- Dinâmico:
-    - Erro: execução inconsistente de um caso do software.
-    - Falha: falha geral na execução do software/programa.
-
-
-# Conceitos Importantes
-- Artefatos de Software: documentos e códigos gerados durante a produção de um software.
-
-## Produtos em Série X Produtos Únicos
-Produtos únicos costumam ser testados por amostragem, um por um.
-
-
+ 

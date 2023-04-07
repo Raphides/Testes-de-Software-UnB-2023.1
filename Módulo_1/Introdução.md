@@ -43,5 +43,5 @@ Para realizar testes efetivos, é preciso:
 - Tente achar padrões de onde os bugs do seu software estão concentrados.
 - A quantidade, foco e qualidade dos testes dependem do contexto.
 - Corrigir erros nem sempre vai fazer o seu software decolar nas vendas.
-
+- Paradoxo do Inseticida: veja testes anteriores do projeto antes de fazer os seus. Muitos projetos sofrem em ter vários testes para um único caso, principalmente após a manutenção do software ou vinda de novos desenvolvedores.
  

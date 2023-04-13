@@ -21,6 +21,8 @@ Em outras palavras, o pensamento de alguém que vai testar seu programa deve ser
 
 # Parte 2 - Categorias de Teste
 
+Testes são atividades criativas e por isso podem ocupar muito tempo ao depender da inspiração do responsável no dia. O objetivo é que testes sejam mais sistemáticos (padronizados e automáticos) sem que percam sua eficácia e criatividade envolvida. Portanto as técnicas e classficações aqui comentadas buscam mostrar os padrões e comportamentos que os responsáveis por testes normalmente seguem.
+
 ## Por acesso a informação:
 Os dois tipos de teste a seguir de diferenciam pelo conhecimento que o responsável pelo teste tem sobre a funcionalidade alvo. Caso isso pareça confuso de se entender agora, pense em projetos Open Source e privados. Enquanto em projetos de Código Aberto temos acesso a todo o código de ponta a ponta, em códigos pessoais e privados, podemos acabar caindo em casos em que de fato não entendemos a lógica por trás do código. Com a diferença de acesso a informação, os testes elaborados para cada uma das situações serão orientados de forma distinta.
 
@@ -107,7 +109,7 @@ E ainda tem muitos outros casos:
 
 É uma prática de teste que instrui o programador a testar casos extremos do seu código, perto do que a ação não é feita para lidar.
 
-Um exemplo é novamente o teste do menor número na sessão [Testes baseados em Propriedades](#testes-baseados-em-propriedades)
+Um exemplo é novamente o teste do menor número na sessão [Testes por Propriedades](#testes-baseados-em-propriedades)
 
 ### Testes Inteligentes
 São testes que se adaptam às mudanças de código no projeto. Geralmente conta com geradores de testes de casos simples e evita que o programador tenha que sempre refazer e adicionar testes ao adicionar uma nova funcionalidade.
@@ -122,11 +124,11 @@ São testes que se adaptam às mudanças de código no projeto. Geralmente conta
 
 ### Teste de Integração
 
-Quando as uma unidade é dependente de outra, um teste unitário muitas vezes não consegue cobrir direito a relação e integração entre elas, mas os testes de integração conseguem.
+Quando uma unidade é dependente de outra, um teste unitário muitas vezes não consegue cobrir direito a relação e integração entre elas, mas os testes de integração conseguem!
 
 Testes de integração normalmente são usados quando uma unidade interna depende de outra externa e ambas devem ser testadas. Bons exemplos são conexões a bases de dados ou testes de operações web. Na primeira situação, não dá para testar uma função que conecta a base dados sem testar se as operações SQL à base funcionam corretamente. Logo o programador checará os resultados das operações à base separadamente do resto da função, depois a função sem o SQL e por fim a função com o SQL.
 
-Testes de Integração costumam ser mais complexos e demorados, mas se fosse um teste unitário, ficaria muito mais difícil testar a função, porque os erros encontrados poderiam estar em vários lugares dentro e fora do código.
+Testes de Integração costumam ser mais complexos e demorados, por isso algumas pessoas preferem realizar testes unitários separados com a integração em mente no input e output. 
 
 
 ### Teste Sistemático
@@ -137,25 +139,29 @@ Testes Sistemáticos testam a aplicação em si, dando uma maior confiabilidade 
 
 ## Por tamanho:
 
+Separar testes por tamanho é uma prática popularizada pelos engenheiros da Google, normalmente adotada como alternativa à classificação por escopo. São 3 tipos de teste classificados por tamanho:
+
 ### Testes Pequenos
+
+Testes executados numa única thread e chamada de execução.
 
 ### Testes Médios
 
+Testes que utilizam diversas threads e chamadas de execução.
+
 ### Testes Grandes
 
-## Ferramentas de Teste
-- JUnit
-- AssertJ
-- Selenium
-- jqwik
-
+Testes que podem usar vários computadores simultaneamente em sua execução.
 
 # Parte 3 - Conceitos
 
-- Testes Automatizados: testes que sempre são feitos pelo sistema quando um membro da equipe propõe uma adição de código num projeto.
+- Requisitos de Software: quais ações, funcionalidades e especificações o seu software deve ter. É a fase inicial na produção de um software profissional e normalmente conta com vários artefatos de software que descrevem e organizam as requisições de forma mais simples. Os requisitos de software são o que gera o output esperado para muitas funções e não é incomum que revisões e adições sejam feitas nos requisitos, principalmente durante os processos de teste.
+
+- Testes Automatizados: testes que podem ser realizados sem quaisquer dificuldades ou configuração quando você bem entender. Exemplo: quando um membro da equipe propõe uma adição de código num projeto. Normalmente testes automatizados são implementados através de frameworks/ferramentas de testes.
+
+- Ferramentas de Teste: existem diversas ferramentas/suites/frameworks de teste, todas com suas especificações próprias e configurações que devem ser estudadas antes de seu uso. Entretanto, mesmo com tantas ferramentas de teste, todas se resumem ao seguinte comportamento: inserir casos de teste, executar a ferramenta e esperar um relatório completo indicando se os testes passaram ou não. Exemplos de suites de teste: *JUnit, AssertJ, Selenium, jqwik e pytest*.
 
 - Cobertura de Código: linhas do código que são checadas por alguma teste. Uma alta cobertura de código não garante um programa bem polido, mas normalmente é visto com bons olhos.
 
 - Testes duplicados: testes que abordam a mesma função e caso já analisado por outro código. Normalmente códigos duplicados são removidos, mas alguns os deixam para facilitar a compreensão dos novatos ao verem os códigos de teste.
 
-- Requisitos de Software: quais ações, funcionalidades e especificações o seu software deve ter. É a fase inicial na produção de um software profissional e normalmente conta com vários artefatos de software que descrevem e organizam as requisições de forma mais simples. Os requisitos de software são o que gera o output esperado para muitas funções e não é incomum que revisões e adições sejam feitas nos requisitos, principalmente durante os processos de teste.

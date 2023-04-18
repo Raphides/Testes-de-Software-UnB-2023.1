@@ -10,7 +10,7 @@ Métodos utilizados: TBL(*Team Based Learning*)
 
 |Módulos|Tema|Teoria|Exercícios|Atividade Prática|
 |-|-|-|-|-|
-|1|Introdução à testes|Em progresso|Em progresso|Elaborar estratégias de testes|
+|1|Introdução à testes|![Completo](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_1)|Em progresso|Elaborar estratégias de testes|
 |2|Caixa Preta|||||
 |3|Caixa Branca|||||
 |4|*Test Driven Development*||||Desenvolver em TDD|

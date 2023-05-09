@@ -39,6 +39,7 @@ Exemplo: numa função de soma entre dois números, podemos separar partições 
     - Para casos de partições de entradas válidas, faça casos de testes que cubram o máximo de partições válidas que você puder.
     - Muitas vezes é importante entender e organizar as saídas esperadas para cada partição.
     - Normalmente, uma tabela é feita:
+
 |Contexto de Entrada|Saída esperada|Nº da partição aplicadas|
 |-|-|-|
 |(Valores 1 das condições de entrada da tabela anterior)|(autoexplicativo)|(classe(s) que será(ão) testada(s) nesse caso)|

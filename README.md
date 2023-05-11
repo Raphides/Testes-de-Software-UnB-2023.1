@@ -2,17 +2,19 @@
 
 Este é um repositório individual destinado a anotação e prática na disciplina Testes de Software-UnB. Seu objetivo além de armazenar os documentos, é organizar um referencial de conteúdo e atividades adequado para futuros alunos que pretendem cursar a disciplina.
 
-Período: 2023.1<br>
-Professora: Elaine<br>
-Métodos utilizados: TBL(*Team Based Learning*) 
+- **Período**: 2023.1
+
+- **Professora**: Elaine
+
+- **Métodos utilizados**: TBL(*Team Based Learning*) 
 
 ## Plano de Ensino
 
 |Módulos|Tema|Teoria|Exercícios|Atividade Prática|
 |-|-|-|-|-|
-|1|Introdução à testes|![Completo](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_1)|Em progresso|Elaborar estratégias de testes|
-|2|Caixa Preta|||||
-|3|Caixa Branca|||||
+|1|Introdução à testes|[Completo](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_1)|Em progresso|Elaborar uma análise e estratégia de testes|
+|2|Caixa Preta|[Em progresso](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_2)||Desenvolver testes com técnicas de borda e partições equivalentes em Java|
+|3|Caixa Branca|[Em progresso](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_3)|||
 |4|*Test Driven Development*||||Desenvolver em TDD|
 |5|Testes não-funcionais|||Desenvolver testes não-funcionais|
 
@@ -25,4 +27,4 @@ Faremos um ciclo de discussões e trabalhos em grupos pré definidos a cada mód
 - **Terceira Aula - Aplicação** - Correção das atividades,notas da professora, contestação dos resultados e aplicação dos conceitos em um software real.
 
 ## Contribuições
-O repositório aceita sim a adição de código e documentos de outros alunos, portanto que o mesmo seja proposto educamente em alguma Pull Request ou Issue. Sinta-se livre para escrevê-las como quiser, portanto que respeite as regras da comunidade GitHub e da própria UnB
+O repositório aceita sim a adição de código e documentos de outros alunos, portanto que o mesmo seja proposto educamente em alguma *pull request* ou *issue*. Sinta-se livre para escrevê-las como quiser, portanto que respeite as regras da comunidade GitHub e da própria UnB.

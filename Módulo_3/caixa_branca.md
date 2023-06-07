@@ -29,12 +29,12 @@ else:
 ```
 
 
-## Gráfico de Fluxo de Controle
+## Gráfico de Fluxo de Controle (GFC)
 
 ![image](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/assets/89037051/057dd078-cfee-4957-8744-38616d4ac437)
 
-O Gráfico de Fluxo de Controle é uma forma de mapear o seu código, focando principalmente nos diferentes condições, decisões, mudanças e caminhos que o programa vai tomar. Esse tipo de gráfico é muito usado como auxílio na produção de testes de caixa-branca, visto que representa os possíveis diferentes comportamentos do seu programa de forma simples. Normalmente são representados em gráficos assim:
-- Tomada de decisões - Através de losângos com bifurcações.
-- Expressões Lógicas (condição) - Através de losângos com bifurcações.
-- Laços/Loops - Através de condições/decisões que criam ciclos no fluxo.
-- Ação relevante - Atravpes de um retângulo.
+O GFC é uma forma de mapear o seu código, focando principalmente nos diferentes condições, decisões, mudanças e caminhos que o programa vai tomar. Esse tipo de gráfico é muito usado como auxílio na produção de testes de caixa-branca, visto que representa os possíveis diferentes comportamentos do seu programa de forma simples. Um GFC possui somente **arestas**, usados para indicar o próximo comando/ação, e **nós**, usados para representar uma ação/comando. Normalmente são representados em gráficos assim:
+- Tomada de decisões - Através de nós-losângos com bifurcações.
+- Expressões Lógicas (condição) - Através de nós-losângos com bifurcações.
+- Laços/Loops - Através de arestas de condições/decisões que criam ciclos no fluxo.
+- Ação relevante - Através de um nó-retângulo.

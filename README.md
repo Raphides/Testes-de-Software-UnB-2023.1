@@ -34,3 +34,4 @@ O repositório aceita sim a adição de código e documentos de outros alunos, p
 > 1. Myers, Glenford J., et al. <i>The Art of Software Testing</i>, John Wiley & Sons, Incorporated, 2011.<i> ProQuest Ebook Central</i>, https://ebookcentral.proquest.com/lib/univbrasilia-ebooks/detail.action?docID=697721.
 > 2. Homès, Bernard, and Bernard Homès. <i>Fundamentals of Software Testing</i>, John Wiley & Sons, Incorporated, 2012.<i> ProQuest Ebook Central</i>, https://ebookcentral.proquest.com/lib/univbrasilia-ebooks/detail.action?docID=1120766.
 > 3. Aniche. <i>Effective Software Testing</i>, disponível em https://livebook.manning.com/book/effective-software-testing/
+> 4. Farcic, Viktor, and Alex Garcia. *Test-Driven Java Development: Invoke TDD Principles for End-To-end Application Development*, 2nd Edition. <i> ProQuest Ebook Central</i>, https://ebookcentral.proquest.com/lib/univbrasilia-ebooks/detail.action?docID=5332126.

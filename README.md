@@ -13,9 +13,9 @@ Este é um repositório individual destinado a anotação e prática na discipli
 |Módulos|Tema|Teoria|Exercícios|Atividade Prática|
 |-|-|-|-|-|
 |1|Introdução à testes|[Completo](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_1)|Em progresso|Elaborar uma análise e estratégia de testes|
-|2|Caixa Preta|[Em progresso](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_2)||Desenvolver testes com técnicas de borda e partições equivalentes em Java|
-|3|Caixa Branca|[Em progresso](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_3)|||
-|4|*Test Driven Development*||||Desenvolver em TDD|
+|2|Caixa Preta|[Em progresso](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_2)||Desenvolver um planejamento de testes com técnicas de borda e partições equivalentes|
+|3|Caixa Branca|[Em progresso](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_3)|[Em progresso](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_3/rapha_ex3.docx)|Desenvolver um planejamento de execução de testes de cobertura multi-condicional|
+|4|*Test Driven Development*|[Em progresso](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/tree/main/Módulo_3)|||Desenvolver em TDD|
 |5|Testes não-funcionais|||Desenvolver testes não-funcionais|
 
 ** Teoria: Composta por um resumo das aulas e leituras feitas durante a aula. Propositalmente a teoria não foi formalmente separada em conteúdos ditos em sala de aula e lidos em livros para que alunos não a copiem descaradamente em atividades propostas em sala de aula.

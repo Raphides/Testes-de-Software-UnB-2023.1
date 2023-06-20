@@ -1,15 +1,15 @@
-# Test Driven Development
+# Test Driven Development (TDD)
 
-O **Teste Dirigido pelo Desenvolvimento** (TDD) é uma estratégia de produção de projetos de código veloz, que junta o desenvolvimento de *requisitos, implementação, testes* em um único processo intercalável.
+O **Desenvolvimento Dirigido por Testes** é uma estratégia de produção de projetos de código veloz, que junta o desenvolvimento de *requisitos, implementação, testes* em um único processo intercalável.
 
 Sua ideia principal centra-se em realizar testes antes de sequer implementar o código.
 
 ## Estrutura básica
 
 O TDD é dividido em 3 etapas cíclicas:
-- Vermelho
-- Verde
-- Refatoração
+- ![Vermelho](#Vermelho)
+- ![Verde](#Verde)
+- ![Refatoração](#Refatoração)
 
 ![TDD - Etapas Vermelho, Verde e Refatorar](https://github.com/Raphides/Testes-de-Software-UnB-2023.1/assets/89037051/e39a9812-3390-460c-b547-26e1c65356ac)
 
@@ -41,9 +41,9 @@ Alguns cuidados:
 
 ## Refatoração
 
-A etapa de Refatoração é similar a uma **otimização e revisão**. As etapas Vermelho e Verde do TDD de fato geram o que prometeram: *requisitos, código, testes*, entretanto, o produto das duas etapas do TDD nem sempre é a melhor opção possível de teste e impĺementação. Para atingit níveis de qualidade maiores, eliminar redundâncias e linhas de código excessivas, a etapa Refatoração existe.
+A etapa de Refatoração é similar a uma **otimização e revisão**. As etapas Vermelho e Verde do TDD de fato geram o que prometeram: *requisitos, código, testes*, entretanto, o produto das duas etapas do TDD nem sempre é a melhor opção possível de teste e impĺementação. Para atingit níveis de qualidade maiores, eliminar redundâncias e linhas de código excessivas, a etapa Refatoração existe. Entretanto, caso ache que o código já foi bem implementada na Etapa Vermelha, pode-se pular a Refatoração.
 
-Refatorar é o processo de modificar a estrutura interna do seu projeto sem alterar os resultados e outros componentes externos. Dessa forma, a última etapa busca simplificar e otimizar o código da funcionalidades selecionada, sem mudar em nada os requisitos da mesma.
+Refatorar é o processo de modificar a estrutura interna do seu projeto sem alterar o conceito da funcionalidade em si. Ou seja, simplificar e otimizar o código da funcionalidades selecionada, sem mudar em nada os requisitos da mesma.
 
 Alguns cuidados e precauções devem ser tomadadas:
 - Não alterar os requisitos/testes.

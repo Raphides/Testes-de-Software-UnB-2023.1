@@ -14,15 +14,26 @@ Desvantagens:
 - Depende da disponibilidade de ferramentas SAST boas para as linguagens, modelos e frameworks utilizados.
 - Pode apontar vulnerabilidades para invasão com dados que um invasor não consegue adquirir (falso positivo).
 
+Exemplos:
+- SonarQuebe
+
 ### Análise Dinâmica / Dynamic Analysis Security Testing (DAST):
-Gera uma série de ataques simulados dentro do aplicativo funcionando como um todo.
+Gera uma série de ataques simulados ao sistema. Seu acesso é externo, normalmente se aproveitando das requisições HTTP e testando a aplicação de forma mais fidedigna. Normalmente não é dependente da linguagem.
 
 
 Desvantagens:
 - Dificilmente testa ataques no *setup* e nas configurações iniciais.
 - 
 
+Exemplos:
+- Intruder
+- AppChecker
+- Detecfy 
+
+
 ### Fuzzing:
+Inunda a aplicação com entradas inválidas ou mal intencionadas de forma automatizada
+
 
 ### Análise de Composição:
 

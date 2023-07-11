@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Request Forms</title>
+</head>
+<body>
+    <forms>
+        <h2>Account Request</h2>
+        <p class="description" id="requestDescription"></p>
+        <section>
+            <h3>Your full name</h3>
+            <p class="description">This is the name that will be shown to your students. You may include salutation (Dr. Prof. etc.)</p>
+            <input type="text" id="NameInput">
+        </section>
+        <section>
+            <h3>University/school/institution</h3>
+            <p class="description">Please give full name of the university</p>
+            <input type="text" id="NameInput">
+        </section>
+        <section>
+            <h3>Country</h3>
+            <p class="description">Your university/institution is based in which country?</p>
+            <input type="text" id="NameInput">
+        </section>
+        <section>
+            <h3>"Official" email address</h3>
+            <p class="description">Please use the email address ***given to you by your school/university*** (not your Gmail/Hotmail address). Note that this email address will be visible to the students you enroll in TEAMMATES.</p>
+            <input type="text" id="NameInput">
+        </section>
+        <section>
+            <h3>Home Page</h3>
+            <p class="description">URL of your home page (if any)</p>
+            <input type="text" id="NameInput">
+        </section>
+        <section>
+            <h3>I'm requesting for:</h3>
+            <div class="option">
+                <label for="StudentAccountType">Student Account</label>
+                <input type="radio" name="accountType" id="StudentAccountType">
+            </div>
+            <div class="option">
+                <label for="InstructorAccountType">Instructor Account</label>
+                <input type="radio" name="accountType" id="InstructorAccountType">
+            </div>
+        </section>
+        <button id="submitForms">Submit</button>
+    </forms>
+</body>
+</html>
